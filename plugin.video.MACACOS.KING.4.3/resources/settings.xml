@@ -1,0 +1,13 @@
+﻿<settings>
+  <category label="Info.MACACOS.ADDON.VIP">
+    <setting type="lsep" label="[COLOR goldenrod]Versión ::[/COLOR] 0.0.4" option="close" action="RunPlugin(plugin://plugin.video.MACACOS.KING.4.3/?mode=7)" />
+    <setting type="lsep" label="[COLOR goldenrod]Website ::[/COLOR] http://retrocavernapeliculasyseries" option="close" action="RunPlugin(plugin://plugin.video.MACACOS.KING.4.3/?mode=7)" />
+	<setting type="lsep" label="[COLOR goldenrod]Facebook ::[/COLOR] www.facebook.com/macacosking" option="close" action="RunPlugin(plugin://plugin.video.MACACOS.KING.4.3/?mode=7)" />
+    <setting type="lsep" label="[COLOR goldenrod]paypal ::[/COLOR] playpalretrocaverna@gmail.com" option="close" action="RunPlugin(plugin://plugin.video.MACACOS.KING.4.3/?mode=7)" />
+  </category>
+
+  <category label="Control Parental">
+    <setting id="parentalblockedpin" label="Parental Block Pin" type="text"  option="hidden"  default=""/>
+    <setting id="parentalblocked" label="Is Parental Blocked Applied?" type="bool" default="true" enable="true"/>
+  </category>
+</settings>
